@@ -25,7 +25,6 @@ setIndicator("#ccc");
 function handleSlider() {
   inputSlider.value = passwordLength;
   lengthDisplay.innerText = passwordLength;
-  //or kuch bhi karna chahiye ? - HW
   const min = inputSlider.min;
   const max = inputSlider.max;
   inputSlider.style.backgroundSize =
